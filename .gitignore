@@ -1,0 +1,61 @@
+# Build
+build/
+build-*/
+out/
+cmake-build-*/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# Qt
+*.qm
+*.user
+*.user.*
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+.qmake.stash
+
+# C++ / Clang
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.gcda
+*.gcno
+*.gcov
+coverage/
+coverage.xml
+coverage.html
+
+# IDEs
+.vscode/
+.idea/
+.kdev4/
+*.kdev4
+*.swp
+*.swo
+*~
+
+# Runtime artifacts
+dicom_viewer.log
+dicom_viewer.log.*
+dicom_viewer_crash.log
+
+# Dados sensíveis — NUNCA commitar
+*.dcm
+*.dicom
+tests/data/external/

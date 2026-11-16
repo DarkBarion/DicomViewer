@@ -1,0 +1,11 @@
+# DicomViewer License
+
+Este projeto é de uso pessoal/acadêmico.
+
+Para questões de licenciamento, entre em contato com o autor.
+
+## Dependências
+
+- **Qt 6**: LGPL v3
+- **GDCM**: BSD-3-Clause
+- **GoogleTest**: BSD-3-Clause
